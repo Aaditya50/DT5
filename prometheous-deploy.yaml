@@ -42,7 +42,7 @@ apiVersion: v1
 	        env: prometheus
 	    spec:
 	      containers:
-	      - image: prom/prometheus:latest
+	      - image: vimal13/prometheus:latest
 	        name: prometheus
 	        ports:
 	        - containerPort: 9090
